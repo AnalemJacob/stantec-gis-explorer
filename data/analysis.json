@@ -1,0 +1,241 @@
+{
+  "validated": "2026-11-23",
+  "checks": [
+    {
+      "check": "streams valid nonempty geometry",
+      "pass": true
+    },
+    {
+      "check": "streams no duplicate geometries",
+      "pass": true
+    },
+    {
+      "check": "roads valid nonempty geometry",
+      "pass": true
+    },
+    {
+      "check": "roads no duplicate geometries",
+      "pass": true
+    },
+    {
+      "check": "routes valid nonempty geometry",
+      "pass": true
+    },
+    {
+      "check": "routes no duplicate geometries",
+      "pass": true
+    },
+    {
+      "check": "inspections valid nonempty geometry",
+      "pass": true
+    },
+    {
+      "check": "inspections no duplicate geometries",
+      "pass": true
+    },
+    {
+      "check": "20 unique inspection IDs",
+      "pass": true
+    },
+    {
+      "check": "3 routes",
+      "pass": true
+    },
+    {
+      "check": "A length recomputed",
+      "pass": true
+    },
+    {
+      "check": "A crossings recomputed",
+      "pass": true
+    },
+    {
+      "check": "A finite profile",
+      "pass": true
+    },
+    {
+      "check": "B length recomputed",
+      "pass": true
+    },
+    {
+      "check": "B crossings recomputed",
+      "pass": true
+    },
+    {
+      "check": "B finite profile",
+      "pass": true
+    },
+    {
+      "check": "C length recomputed",
+      "pass": true
+    },
+    {
+      "check": "C crossings recomputed",
+      "pass": true
+    },
+    {
+      "check": "C finite profile",
+      "pass": true
+    },
+    {
+      "check": "INS-001 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-002 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-003 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-004 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-005 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-006 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-007 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-008 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-009 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-010 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-011 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-012 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-013 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-014 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-015 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-016 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-017 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-018 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-019 within study area",
+      "pass": true
+    },
+    {
+      "check": "INS-020 within study area",
+      "pass": true
+    },
+    {
+      "check": "finite terrain grid",
+      "pass": true
+    },
+    {
+      "check": "raster grid consistent",
+      "pass": true
+    },
+    {
+      "check": "file exists index.html",
+      "pass": true
+    },
+    {
+      "check": "file exists app.js",
+      "pass": true
+    },
+    {
+      "check": "file exists style.css",
+      "pass": true
+    },
+    {
+      "check": "file exists vendor/leaflet.js",
+      "pass": true
+    },
+    {
+      "check": "file exists vendor/leaflet.css",
+      "pass": true
+    },
+    {
+      "check": "file exists data/sources.json",
+      "pass": true
+    },
+    {
+      "check": "file exists esri/inspection_survey.xlsx",
+      "pass": true
+    },
+    {
+      "check": "file exists data/company-projects.geojson",
+      "pass": true
+    },
+    {
+      "check": "file exists data/news.json",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "streams": 1019,
+    "roads": 2300,
+    "routes": 3,
+    "inspections": 20
+  },
+  "route_metrics": [
+    {
+      "id": "A",
+      "synthetic": true,
+      "length_km": 14.61,
+      "crossings": 22,
+      "steep_pct": 10.2,
+      "mean_access_m": 179,
+      "corridor_ha": 58.5
+    },
+    {
+      "id": "B",
+      "synthetic": true,
+      "length_km": 14.95,
+      "crossings": 18,
+      "steep_pct": 14.0,
+      "mean_access_m": 138,
+      "corridor_ha": 59.8
+    },
+    {
+      "id": "C",
+      "synthetic": true,
+      "length_km": 16.41,
+      "crossings": 14,
+      "steep_pct": 15.8,
+      "mean_access_m": 284,
+      "corridor_ha": 65.6
+    }
+  ],
+  "browser_validation": "Not completed: preview browser could not reach local server. Check deployed GitHub Pages."
+}

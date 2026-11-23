@@ -1,0 +1,19 @@
+{
+  "data/roads.geojson": "ef3a0e738b09e3e8df1aa35b43b5b7e845f37f4c176522bd9bfc5a7c0bea781f",
+  "data/sources.json": "f6a455ae5e1a75eb730d6ee0f896710b6575e9063cf55ef5bea8995a2c3e3f5e",
+  "data/news.json": "11c84b511bef6e678209f237be4768d67e7fdeeae06a4dc1509ba1b3e928af95",
+  "data/SOURCE_REGISTER.csv": "c072d002b92dc85c1e0354f7d955d1f7cd31208fd7224e75f421da7772ca3bb8",
+  "data/landuse.png": "4aa096f352ed2f7db1917104def92ed63458faad07450e7a720f19c1d4344491",
+  "data/slope.png": "d6ad81712f66520927c2348684d4bd3ed3271fa53c40a55d9a735d1a3c184c3c",
+  "data/company-projects.geojson": "6a5ea243491bd87df8c597e923092da84225da578371081545bbb4fd9af8c922",
+  "data/landuse-codebook.json": "4e5802d04a6f26b362fc599f09e4ef05f08c5725b3304d9df92749e042d00682",
+  "data/slope.tif": "e1e4716129d4bb7e723514c8eef0a1650054e49749c6d9f3d89ba99ededb8820",
+  "data/analysis.json": "f07394c05e21db839e583b316aa9ce7c52027df63954ae6243dcfb3e70b81327",
+  "data/landuse-codebook-legend.json": "a41349983bb38bd5b585f3bc936f78f1233ebf6164cc82be2323f0a12b698e6b",
+  "data/landuse.tif": "8ccaef71c428beec85652c7aa8ef704277f0c8fe29c4b0aa6b2fdb943236605c",
+  "data/elevation.tif": "851d61a5889ae78eb064d4ef77ea8e033724fc79a8736d2d2028dca1d05a77c5",
+  "data/inspections.geojson": "13f26be8c9d9139b577d03f2ad218839b32b5d5955c2a6ef9cd3ec1bddb46646",
+  "data/terrain.json": "2b732b9db53d16cf1d670bd78ee7bded15fdbb0f33a8f0421c52404c449d2777",
+  "data/routes.geojson": "282e667be0f5837f15d7e93d3a0e19b7b084fa991530cd915729be09954a0800",
+  "data/streams.geojson": "da415077a9e3c22667c5e5c6ecb447bcfec9728af3bca5b72f44fdfc09c3419e"
+}

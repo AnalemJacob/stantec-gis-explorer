@@ -1,0 +1,6 @@
+numpy
+Pillow
+rasterio
+shapely
+pyproj
+openpyxl

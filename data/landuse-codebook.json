@@ -1,0 +1,127 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "fields": [
+    {
+      "name": "ObjectID",
+      "type": "esriFieldTypeOID",
+      "alias": "OID",
+      "domain": null
+    },
+    {
+      "name": "Value",
+      "type": "esriFieldTypeInteger",
+      "alias": "Value",
+      "domain": null
+    },
+    {
+      "name": "ClassName",
+      "type": "esriFieldTypeString",
+      "alias": "ClassName",
+      "domain": null,
+      "length": 256
+    },
+    {
+      "name": "Red",
+      "type": "esriFieldTypeInteger",
+      "alias": "Red",
+      "domain": null
+    },
+    {
+      "name": "Green",
+      "type": "esriFieldTypeInteger",
+      "alias": "Green",
+      "domain": null
+    },
+    {
+      "name": "Blue",
+      "type": "esriFieldTypeInteger",
+      "alias": "Blue",
+      "domain": null
+    },
+    {
+      "name": "Alpha",
+      "type": "esriFieldTypeInteger",
+      "alias": "Alpha",
+      "domain": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "ObjectID": 1,
+        "Value": 0,
+        "ClassName": "Settlement",
+        "Red": 158,
+        "Green": 16,
+        "Blue": 82,
+        "Alpha": 255
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 2,
+        "Value": 1,
+        "ClassName": "Water",
+        "Red": 7,
+        "Green": 46,
+        "Blue": 71,
+        "Alpha": 255
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 3,
+        "Value": 2,
+        "ClassName": "Forest",
+        "Red": 45,
+        "Green": 94,
+        "Blue": 68,
+        "Alpha": 255
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 4,
+        "Value": 3,
+        "ClassName": "Cropland",
+        "Red": 196,
+        "Green": 172,
+        "Blue": 112,
+        "Alpha": 255
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 5,
+        "Value": 4,
+        "ClassName": "Grassland",
+        "Red": 157,
+        "Green": 166,
+        "Blue": 116,
+        "Alpha": 255
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 6,
+        "Value": 5,
+        "ClassName": "Wetland",
+        "Red": 135,
+        "Green": 177,
+        "Blue": 255,
+        "Alpha": 255
+      }
+    },
+    {
+      "attributes": {
+        "ObjectID": 7,
+        "Value": 6,
+        "ClassName": "Other land",
+        "Red": 147,
+        "Green": 151,
+        "Blue": 153,
+        "Alpha": 255
+      }
+    }
+  ]
+}

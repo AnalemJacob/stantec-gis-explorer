@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Stantec public project facts",
+    "kind": "Company context",
+    "use": "Seven short factual project summaries and official links. Approximate coordinates assigned independently; no company GIS files or images redistributed.",
+    "licence": "Original factual summaries; linked source content remains Stantec copyright",
+    "date": "Reviewed 2026-11-23",
+    "url": "https://www.stantec.com/en/offices/canada-locations-hub",
+    "file": "data/company-projects.geojson"
+  },
+  {
+    "name": "BC Freshwater Atlas \u2014 Stream Network",
+    "kind": "Bundled real vector data",
+    "use": "1,019 stream features intersecting the study envelope. Used for route intersection counts. Complete paginated query, not a sample of first 1,000 records.",
+    "licence": "Open Government Licence \u2013 British Columbia",
+    "date": "Retrieved 2026-11-23; individual survey dates vary",
+    "url": "https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-stream-network",
+    "file": "data/streams.geojson"
+  },
+  {
+    "name": "BC Digital Road Atlas \u2014 Master Partially-Attributed Roads",
+    "kind": "Bundled real vector data",
+    "use": "2,300 road features intersecting the study envelope. Used for straight-line proximity; not proof of road access.",
+    "licence": "Open Government Licence \u2013 British Columbia",
+    "date": "Retrieved 2026-11-23; individual record dates vary",
+    "url": "https://catalogue.data.gov.bc.ca/dataset/bb060417-b6e6-4548-b837-f9060d94743e",
+    "file": "data/roads.geojson"
+  },
+  {
+    "name": "Mapzen Terrain Tiles \u2014 elevation",
+    "kind": "Bundled real raster / derived slope",
+    "use": "Elevation decoded from Terrarium tiles, resampled to approximately 100m. Derived slope and route elevation profiles; source tile resolution and vintage vary.",
+    "licence": "Canada terrain contains information licensed under Open Government Licence \u2013 Canada; SRTM/GMTED2010/3DEP courtesy USGS; full notices in docs/ATTRIBUTION.md",
+    "date": "Retrieved 2026-11-23; source vintage not established",
+    "url": "https://registry.opendata.aws/terrain-tiles/",
+    "file": "data/elevation.tif"
+  },
+  {
+    "name": "Derived terrain slope",
+    "kind": "Derived raster",
+    "use": "Degrees from elevation gradients with local metre spacing; orange overlay >15\u00b0, dark >30\u00b0. Preliminary screening, not geohazard classification.",
+    "licence": "Derived from attributed terrain data",
+    "date": "Calculated 2026-11-23",
+    "url": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+    "file": "data/slope.tif"
+  },
+  {
+    "name": "AAFC 2020 Land Use",
+    "kind": "Bundled real classified raster",
+    "use": "A 2020 land-use clip using the provider simplified rendering function. 160 \u00d7 140 nearest-neighbour cells. Not a current vegetation map. Display and route samples only; not used in route ranking.",
+    "licence": "Open Government Licence \u2013 Canada",
+    "date": "2020 reference year; retrieved 2026-11-23",
+    "url": "https://open.canada.ca/data/en/dataset/7a098ea9-cc31-4d79-b326-89f6cd1fbb7d",
+    "file": "data/landuse.tif"
+  },
+  {
+    "name": "Hypothetical routes and inspections",
+    "kind": "Synthetic demonstration records",
+    "use": "3 route alternatives and 20 training inspections. No real site inspection or Stantec design is represented. Measurements use the real reference data.",
+    "licence": "Original demonstration content by Jacob Analem",
+    "date": "Created 2026-11-23",
+    "url": "https://github.com",
+    "file": "data/inspections.geojson"
+  },
+  {
+    "name": "Basemap services",
+    "kind": "Live external display",
+    "use": "OpenStreetMap, CARTO light tiles, Esri World Imagery. Tiles are streamed, not bundled. Internet required; no bulk downloading. Use subject to each provider policy.",
+    "licence": "\u00a9 OpenStreetMap contributors; \u00a9 CARTO; \u00a9 Esri and imagery providers",
+    "date": "On demand",
+    "url": "https://www.openstreetmap.org/copyright"
+  }
+]

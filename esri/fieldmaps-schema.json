@@ -1,0 +1,22 @@
+{
+  "description": "Create hosted points from inspections.geojson then configure fields and domains. This file is documentation, not an ArcGIS item.",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326
+  },
+  "enableSync": true,
+  "fields": {
+    "id": "string",
+    "route": "string A/B/C",
+    "issue": "string",
+    "status": "Awaiting inspection/Inspected",
+    "action": "None/Open/Closed",
+    "priority": "Normal/High",
+    "due": "date",
+    "verified": "boolean",
+    "synthetic": "boolean",
+    "notes": "string"
+  },
+  "attachments": true,
+  "notes": "Enable editor tracking, GlobalIDs, attachment support, and sync on published service using organizational tools. Restrict editor access; public viewers should use a read-only view."
+}

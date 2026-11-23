@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.19,
+          56.47
+        ]
+      },
+      "properties": {
+        "name": "Brucejack Mine — transmission assessment",
+        "sector": "Power delivery",
+        "location": "Northwest British Columbia",
+        "offices": [
+          "Burnaby"
+        ],
+        "services": "Terrain and geohazard assessment; routing; geotechnical engineering",
+        "summary": "Stantec describes GIS, imagery and LiDAR supporting terrain assessment and transmission-line investigations.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/b/brucejack-mine-transmission-line-geohazards-and-geotechnical-assessment",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.062,
+          49.309
+        ]
+      },
+      "properties": {
+        "name": "Low Level Road",
+        "sector": "Transportation",
+        "location": "North Vancouver, British Columbia",
+        "offices": [
+          "Burnaby",
+          "Vancouver"
+        ],
+        "services": "Transportation; landscape architecture; structural and electrical engineering",
+        "summary": "Stantec describes an integrated road-and-rail improvement project addressing community, environmental and transport objectives.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/l/low-level-road",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.7,
+          59.57
+        ]
+      },
+      "properties": {
+        "name": "Atlin Hydro Expansion",
+        "sector": "Hydropower",
+        "location": "Atlin, British Columbia",
+        "offices": [
+          "Vancouver",
+          "Whitehorse",
+          "Winnipeg"
+        ],
+        "services": "Environmental assessment; permitting; planning and power engineering",
+        "summary": "Published project context describes seasonal water storage and a First Nation-owned hydropower expansion.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/a/atlin-hydro-expansion/_jcr_content",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5,
+          53
+        ]
+      },
+      "properties": {
+        "name": "AltaLink Transmission Development Program",
+        "sector": "Power delivery",
+        "location": "Alberta — regional marker",
+        "offices": [
+          "Calgary"
+        ],
+        "services": "Environmental assessment; permitting; GIS; route decision logs",
+        "summary": "Stantec supported transmission development with environmental information and construction monitoring.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/a/altalink-transmission-development-program",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.85,
+          43.49
+        ]
+      },
+      "properties": {
+        "name": "Waterdown to Finch Pipeline",
+        "sector": "Oil & gas",
+        "location": "Hamilton–Toronto, Ontario — regional marker",
+        "offices": [
+          "Calgary",
+          "Edmonton"
+        ],
+        "services": "Geomatics; GIS; surveying; data management",
+        "summary": "Stantec describes integrating historical survey records, utility information and construction asset tables.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/w/waterdown-to-finch-pipeline-geomatics-support",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.47,
+          56.77
+        ]
+      },
+      "properties": {
+        "name": "Parsons Creek Residential Development",
+        "sector": "Community development",
+        "location": "Fort McMurray, Alberta",
+        "offices": [
+          "Fort McMurray",
+          "Red Deer"
+        ],
+        "services": "Land use planning; urban planning and design",
+        "summary": "Published work covers conceptual planning, servicing strategy and traffic studies for a residential development.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/p/parson-creek-residential-development1",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.07,
+          51.05
+        ]
+      },
+      "properties": {
+        "name": "Class Location Watch",
+        "sector": "Oil & gas",
+        "location": "Alberta — regional marker",
+        "offices": [
+          "Calgary"
+        ],
+        "services": "GIS; linear referencing; change monitoring",
+        "summary": "Stantec describes a repeatable pipeline monitoring workflow and targeted watch areas.",
+        "url": "https://www.stantec.com/en/projects/canada-projects/c/class-location-watch-compliance-assessment",
+        "location_accuracy": "approximate regional reference",
+        "reviewed": "2026-11-23"
+      }
+    }
+  ]
+}
