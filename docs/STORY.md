@@ -14,7 +14,7 @@ An original, source-linked narrative by Jacob Analem, reviewed 23 November 2026.
 Scroll chapters or use numbered chapter buttons and previous/next controls. The map pans to a chapter's geographic context. Marker clicks select chapters. Source links open official pages. The final chapter opens the existing route analysis or methods view. The link-copy control copies a direct link to the story. Reduced-motion preferences are respected. The map remains visible above narrative on mobile.
 
 ## Source and authorship boundaries
-Narrative statements about company work are concise original factual summaries of official project pages, linked in each chapter. The spatial questions and GIS lessons are editorial interpretations by Jacob Analem, not statements attributed to Stantec. No official project images, exact engineering routes, private records or company logo are reused. Source accounts do not establish current construction or operating status.
+Narrative statements about company work are concise original factual summaries of official project pages, linked in each chapter. The spatial questions and GIS lessons are editorial interpretations by Jacob Analem, not statements attributed to Stantec. Actual project preview images are displayed from the official Stantec pages with credit and source links; image rights remain with the respective owners. No exact engineering routes, private records or company logo are reused. Source accounts do not establish current construction or operating status.
 
 This is a custom Leaflet story-map component hosted on GitHub Pages. It is not an ArcGIS StoryMaps item and should not be described as one in a job application.
 

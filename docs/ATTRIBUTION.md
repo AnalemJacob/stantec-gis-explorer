@@ -214,3 +214,6 @@ Attribution statement:
 Attribution statement:
 
 > © Commonwealth of Australia (Geoscience Australia) 2017.
+
+## Displayed project photographs
+Project cards and story chapters display externally hosted preview photographs identified on the official Stantec project pages. Source links and credits accompany each image; the images are not bundled in this repository and no open licence or endorsement is asserted. See data/project-images.json for the exact source URLs.
