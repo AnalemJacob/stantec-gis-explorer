@@ -19,6 +19,7 @@ window.renderDecisionDashboard=function(){
  const a=DashboardMath.progress(sites.features.map(f=>f.properties)),pct=a.total?Math.round(100*a.inspected/a.total):0;
  document.querySelector('#inspectionSnapshot').innerHTML=`<div class="chart-eyebrow">FIELD WORKFLOW</div><h3>Inspection progress</h3><div class="inspection-summary"><div class="progress-ring" role="img" aria-label="${a.inspected} of ${a.total} training sites inspected" style="--progress:${pct}%"><strong>${pct}%</strong></div><div><b>${a.inspected} / ${a.total} inspected</b><span>${a.reviewed} records reviewed</span><span>${a.open} open actions</span></div></div><button id="reviewActions">Review actions →</button><p class="muted">Synthetic records · Inspection and action closure are separate.</p>`;
  document.querySelector('#reviewActions').onclick=()=>sub('issues');
+ requestAnimationFrame(()=>studyMap.invalidateSize());
 };
 window.addEventListener('DOMContentLoaded',()=>document.querySelectorAll('[data-map-preset]').forEach(b=>b.onclick=()=>{const preset=b.dataset.mapPreset;document.querySelectorAll('[data-map-preset]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});['slope','landuse'].forEach(k=>{const c=document.querySelector(`[data-layer="${k}"]`);c.checked=(preset==='terrain'&&k==='slope')||(preset==='landuse'&&k==='landuse');if(c.onchange)c.onchange()});}));
 }
